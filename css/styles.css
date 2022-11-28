@@ -1,7 +1,7 @@
 body {
   background: #f5f4fa;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -52,6 +52,9 @@ h2 {
   text-align: center;
 }
 /* Hero title */
+.site-nav .link.current {
+  background-color: #f5f4fa;
+}
 .hero-title {
   padding: 25px;
 }
@@ -64,7 +67,7 @@ h2 {
   border-radius: 5px;
   border-left-width: 150px;
   padding: 1em;
-
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -73,6 +76,8 @@ h2 {
   padding-right: 125px;
   padding-left: 500px;
   margin-bottom: 250px;
+
+  font-size: 20px;
 }
 .text_about {
   margin-left: 50px;
@@ -149,4 +154,31 @@ footer p {
   background-color: #ffffff;
   padding: 25px 40px;
   margin: 25px;
+}
+
+/* feedback */
+.feedback-container {
+  width: 100%;
+}
+
+.feedback-container .feedback-list {
+  text-align: center;
+  list-style: none;
+}
+
+.feedback-container .feedback-item {
+  display: inline-block;
+}
+.feedback-title {
+  margin-top: 50px;
+}
+
+.feedback-item {
+  background-color: #ffffff;
+  padding: 25px 40px;
+  margin: 25px;
+  border-radius: 25px;
+}
+.feedback_photo {
+  border-radius: 25px;
 }
